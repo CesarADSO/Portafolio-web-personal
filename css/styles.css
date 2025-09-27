@@ -169,3 +169,11 @@ position: relative;
 z-index: 1;
 }
 
+/* MAIN  */
+
+#profile {
+    width: 100%;
+    position: relative;
+    background: var(--tertiary-color);
+}
+
