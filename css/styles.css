@@ -186,6 +186,7 @@ header .nav-edit img {
 
 /* MAIN  */
 
+/* SECTION PROFILE */
 #profile {
     width: 100%;
     position: relative;
@@ -209,7 +210,7 @@ header .nav-edit img {
     position: relative;
     z-index: 1;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 #profile .cont-info {
@@ -231,6 +232,71 @@ header .nav-edit img {
     padding: 0 150px 0 150px;
 }
 
- .cont-info p span {
+.cont-info p span {
     color: var(--primary-color);
+}
+
+/* SECTION SKILLS */
+
+#skills {
+    width: 100%;
+    position: relative;
+    background: var(--secundary-color);
+}
+
+#skills h2 {
+    color: var(--text-color);
+    text-align: center;
+    padding-top: 70px;
+    font-weight: 700;
+}
+
+#skills .habilidades-slider {
+    display: flex;
+}
+
+#skills .habilidades-slider .habilidad {
+    text-align: center;
+    padding: 50px 0 50px 0;
+    position: relative;
+}
+
+
+.habilidades-slider .habilidad img {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.habilidades-slider .habilidad .nivel {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #00b4d8ad;
+    color: var(--secundary-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+    right: 180px;
+}
+
+.habilidades-slider .habilidad .nivel-aparte {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #00b4d8ad;
+    color: var(--secundary-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+    right: 170px;
+}
+
+.habilidades-slider .habilidad p {
+    color: var(--text-color);
+    padding-top: 20px;
+    font-size: 22px;
 }
