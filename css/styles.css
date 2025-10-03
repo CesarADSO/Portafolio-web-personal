@@ -302,3 +302,70 @@ header .nav-edit img {
 }
 
 /* SECTION PORTAFOLIO */
+
+#portafolio {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: var(--tertiary-color);
+    padding: 120px;
+}
+
+#portafolio h3 {
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#portafolio h2 {
+    color: var(--text-color);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#parrafoDeArriba {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+#portafolio hr {
+    border: 2px solid var(--primary-color);
+}
+
+#portafolio .slider-proyectos {
+    padding: 0 20px;
+}
+
+#portafolio .slider-proyectos .tarjeta {
+    margin: 0 12px;
+}
+
+.slider-proyectos .tarjeta .cont-info {
+    background: var(--constrast-color);
+    text-align: start;
+}
+
+.tarjeta .cont-info h5 {
+    color: var(--secundary-color);
+    font-weight: 700;
+}
+
+.tarjeta .cont-info p {
+    color: var(--secundary-color);
+}
+
+.tarjeta .cont-info .button {
+    background-color: var(--primary-color);
+    color: var(--secundary-color);
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 16px;
+    transition: transform 0.2s ease;
+}
+
+.tarjeta .cont-info .button:hover {
+    background-color: var(--secundary-color);
+    transform: scale(1.05);
+    color: var(--primary-color);
+}
