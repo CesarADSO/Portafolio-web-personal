@@ -331,6 +331,9 @@ header .nav-edit img {
 
 #portafolio hr {
     border: 2px solid var(--primary-color);
+    opacity: 0.7;
+    margin: 0.8rem auto;
+    width: 20%;
 }
 
 #portafolio .slider-proyectos {
@@ -451,4 +454,107 @@ header .nav-edit img {
     height: 40px;
     border: 1px solid var(--primary-color);
     color: var(--text-color);
+}
+
+#hobbies {
+    width: 100%;
+    position: relative;
+    background: var(--tertiary-color);
+    padding: 120px;
+    text-align: center;
+}
+
+#hobbies .img-info {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: var(--tertiary-color);
+    color: var(--secundary-color);
+    box-shadow: -2px 5px 0 0 var(--secundary-color);
+}
+
+#hobbies .about-me {
+    color: var(--text-color);
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+#hobbies .custom-hr {
+    width: 15%;
+    margin: 0.6rem auto;
+    border: 1px solid var(--primary-color);
+    opacity: 0.7;
+}
+
+#hobbies .custom-hr-2 {
+    width: 9%;
+    margin: 0.6rem auto;
+    border: 1px solid var(--primary-color);
+    opacity: 0.7;
+}
+
+#hobbies .parrafo {
+    color: var(--text-color);
+    text-align: start;
+    font-size: 20px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+#hobbies .parrafo .cesar {
+    color: var(--primary-color);
+}
+
+#hobbies .cont-personal h2 {
+    color: var(--text-color);
+    text-align: start;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+
+.cont-personal .cont-info-personal .claves {
+    text-align: start;
+}
+
+.cont-info-personal .claves h4 {
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.cont-personal .cont-info-personal .valores {
+    text-align: start;
+}
+
+.cont-info-personal .valores p {
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+#hobbies .cont-hobbies {
+    text-align: start;
+}
+
+#hobbies .cont-hobbies h2 {
+    font-size: 30px;
+    color: var(--text-color);
+    margin-bottom: 60px;
+}
+
+.cont-hobbies .cont-img span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    background: var(--secundary-color);
+    transition: 0.5s;
+    transform: 0.5s;
+}
+
+.cont-hobbies .cont-img span:hover {
+    background: var(--primary-color);
+    transform: scale(1.1);
 }
