@@ -401,6 +401,7 @@ header .nav-edit img {
     border: 1px solid var(--text-color);
 }
 
+
 .cont-experiencia .info h4 {
     color: var(--constrast-color);
     font-size: 20px;
@@ -412,6 +413,36 @@ header .nav-edit img {
 }
 
 .cont-experiencia span {
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    border: 1px solid var(--primary-color);
+    color: var(--text-color);
+}
+
+#educacion .educacion h3 {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+#educacion .educacion hr {
+    border: 1px solid var(--text-color);
+}
+
+.cont-educacion .info h4 {
+    color: var(--constrast-color);
+    font-size: 20px;
+}
+
+.cont-educacion .info h5 {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.cont-educacion span {
     margin-top: 10px;
     display: inline-flex;
     align-items: center;
