@@ -34,7 +34,7 @@ span {
     --secundary-color: #0A192F;
     --tertiary-color: #112240;
     --text-color: #fff;
-    --constrast-color: #969696;
+    --constrast-color: #8892B0;
     --text-size: 16px;
     --title-1: 20px;
     --title-2: 40px;
@@ -372,3 +372,52 @@ header .nav-edit img {
 
 /* SECTION EDUCACIÓN */
 
+#educacion {
+    width: 100%;
+    position: relative;
+    background: var(--secundary-color);
+    padding: 120px;
+}
+
+#educacion .titulo {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: var(--title-1);
+}
+
+#educacion h2 {
+    color: var(--text-color);
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#educacion .experiencia h3 {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+#educacion .experiencia hr {
+    border: 1px solid var(--text-color);
+}
+
+.cont-experiencia .info h4 {
+    color: var(--constrast-color);
+    font-size: 20px;
+}
+
+.cont-experiencia .info h5 {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.cont-experiencia span {
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    border: 1px solid var(--primary-color);
+    color: var(--text-color);
+}
