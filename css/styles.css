@@ -640,4 +640,118 @@ header .nav-edit img {
 
 /* 7. ESTILOS RESPONSIVE SMARTPHONE */
 
-@media screen and (min-width: 320px) and (max-width: 767px) {}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .navbar-toggler {
+        background-color: #fff;
+    }
+
+    #hero .cont-info {
+        padding: 130px 0 0 20px;
+    }
+
+    #hero .cont-info h3 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #hero .cont-info h1 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #hero .cont-info h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #hero .cont-info p {
+        padding: 0 20px 0 20px;
+        text-align: start;
+        margin-bottom: 40px;
+    }
+
+    #hero .cont-contact .contact {
+        position: relative;
+        left: 125px;
+    }
+
+    .cont-as ul {
+        padding-left: 70px;
+        margin-top: 40px;
+    }
+
+
+    #profile .cont-foto .foto-cesar {
+        width: 100%;
+        top: 0;
+    }
+
+    #profile .cont-foto::before {
+        width: 236px;
+        top: 140px;
+        left: 50%;
+    }
+
+    #profile .cont-info {
+        padding-top: 120px;
+    }
+
+    #profile .cont-info h2 {
+        padding: 0 20px 0 20px;
+        text-align: center;
+    }
+
+    #profile .cont-info p {
+        padding: 0 20px 30px 20px;
+    }
+
+    .habilidades-slider .habilidad .nivel {
+        right: 140px;
+    }
+
+    .habilidades-slider .habilidad .nivel-aparte {
+        right: 128px;
+    }
+
+    #portafolio {
+        padding: 100px;
+    }
+
+    #educacion {
+        padding: 100px;
+    }
+
+    #educacion h2 {
+        margin-bottom: 70px;
+    }
+
+    #hobbies {
+        padding: 100px;
+    }
+
+    #hobbies .parrafo {
+        text-align: center;
+    }
+
+    #hobbies .cont-personal h2 {
+        text-align: center;
+    }
+
+    .cont-personal .cont-info-personal .claves {
+        text-align: center;
+    }
+
+    .cont-personal .cont-info-personal .valores {
+        text-align: center;
+    }
+
+    #hobbies .cont-hobbies h2 {
+        text-align: center;
+    }
+
+    .cont-hobbies .cont-img span {
+        width: 80px;
+        height: 80px;
+    }
+}
