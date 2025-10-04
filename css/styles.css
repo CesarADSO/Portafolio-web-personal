@@ -561,7 +561,82 @@ header .nav-edit img {
 
 /* 6. ESTILOS RESPONSIVE TABLET */
 
-@media screen and (min-width:768px) and (max-width: 1080px) {}
+@media screen and (min-width:768px) and (max-width: 1080px) {
+    #hero .cont-info {
+        padding: 130px 0 0 20px;
+    }
+
+    #profile .cont-foto .foto-cesar {
+        width: 100%;
+        top: 0;
+    }
+
+    #profile .cont-foto::before {
+        width: 236px;
+        top: 140px;
+    }
+
+    #profile .cont-info {
+        padding-top: 120px;
+    }
+
+    #profile .cont-info h2 {
+        padding: 0 20px 0 20px;
+    }
+
+    #profile .cont-info p {
+        padding: 0 20px 30px 20px;
+    }
+
+    .habilidades-slider .habilidad .nivel {
+        right: 110px;
+    }
+
+    .habilidades-slider .habilidad .nivel-aparte {
+        right: 95px;
+    }
+
+    #portafolio {
+        padding: 100px;
+    }
+
+    #educacion {
+        padding: 100px;
+    }
+
+    #educacion h2 {
+        margin-bottom: 70px;
+    }
+
+    #hobbies {
+        padding: 100px;
+    }
+
+    #hobbies .parrafo {
+        text-align: center;
+    }
+
+    #hobbies .cont-personal h2 {
+        text-align: center;
+    }
+
+    .cont-personal .cont-info-personal .claves {
+        text-align: center;
+    }
+
+    .cont-personal .cont-info-personal .valores {
+        text-align: center;
+    }
+
+    #hobbies .cont-hobbies h2 {
+        text-align: center;
+    }
+
+    .cont-hobbies .cont-img span {
+        width: 80px;
+        height: 80px;
+    }
+}
 
 /* 7. ESTILOS RESPONSIVE SMARTPHONE */
 
