@@ -561,9 +561,9 @@ header .nav-edit img {
 
 /* 6. ESTILOS RESPONSIVE TABLET */
 
-@media screen and (min-width:768px) and (max-width: 1080px) {
+@media screen and (min-width:768px) and (max-width:1080px) {
     #hero .cont-info {
-        padding: 130px 0 0 20px;
+        padding: 9vh 0 0 2vw;
     }
 
     #profile .cont-foto .foto-cesar {
@@ -572,44 +572,44 @@ header .nav-edit img {
     }
 
     #profile .cont-foto::before {
-        width: 236px;
-        top: 140px;
+        width: 25vw;
+        top: 15vh;
     }
 
     #profile .cont-info {
-        padding-top: 120px;
+        padding-top: 12vh;
     }
 
     #profile .cont-info h2 {
-        padding: 0 20px 0 20px;
+        padding: 0 3vw;
     }
 
     #profile .cont-info p {
-        padding: 0 20px 30px 20px;
+        padding: 0 3vw 5vh 3vw;
     }
 
     .habilidades-slider .habilidad .nivel {
-        right: 110px;
+        right: 10vw;
     }
 
     .habilidades-slider .habilidad .nivel-aparte {
-        right: 95px;
+        right: 9vw;
     }
 
     #portafolio {
-        padding: 100px;
+        padding: 10vh 8vw;
     }
 
     #educacion {
-        padding: 100px;
+        padding: 10vh 8vw;
     }
 
     #educacion h2 {
-        margin-bottom: 70px;
+        margin-bottom: 7vh;
     }
 
     #hobbies {
-        padding: 100px;
+        padding: 10vh 8vw;
     }
 
     #hobbies .parrafo {
@@ -633,125 +633,153 @@ header .nav-edit img {
     }
 
     .cont-hobbies .cont-img span {
-        width: 80px;
-        height: 80px;
+        width: 8vw;
+        height: 8vw;
     }
 }
+
 
 /* 7. ESTILOS RESPONSIVE SMARTPHONE */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
+    /* === NAVBAR === */
     .navbar-toggler {
         background-color: #fff;
     }
 
+    /* === SECCIÓN HERO === */
     #hero .cont-info {
-        padding: 130px 0 0 20px;
+        padding: 8rem 0 0 5%;
+        /* 130px → 8rem (más escalable en móviles) */
     }
 
-    #hero .cont-info h3 {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-
-    #hero .cont-info h1 {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-
+    #hero .cont-info h3,
+    #hero .cont-info h1,
     #hero .cont-info h2 {
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
+        /* 40px → 2.5rem */
     }
 
     #hero .cont-info p {
-        padding: 0 20px 0 20px;
+        padding: 0 5%;
+        /* 20px → 5% */
         text-align: start;
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
+        /* 40px → 2.5rem */
     }
 
     #hero .cont-contact .contact {
         position: relative;
-        left: 125px;
+        left: 35%;
+        /* 125px → relativo al ancho del contenedor */
+        /* 👈 Esto centra mejor en pantallas pequeñas */
     }
 
     .cont-as ul {
-        padding-left: 70px;
-        margin-top: 40px;
+        padding-left: 18%;
+        /* 70px → relativo */
+        margin-top: 2.5rem;
+        /* 40px → 2.5rem */
     }
 
+    #hero .cont-img img {
+        width: 100%;
+        height: auto;
+        /* Asegura proporción */
+    }
 
+    /* === PERFIL === */
     #profile .cont-foto .foto-cesar {
         width: 100%;
         top: 0;
     }
 
     #profile .cont-foto::before {
-        width: 236px;
-        top: 140px;
+        width: 60%;
+        /* 236px → 60% del contenedor */
+        top: 20vh;
+        /* 140px → 20% de la altura visible */
         left: 50%;
+        transform: translateX(-50%);
+        /* Centrado horizontal */
     }
 
     #profile .cont-info {
-        padding-top: 120px;
+        padding-top: 7.5rem;
+        /* 120px → 7.5rem */
     }
 
     #profile .cont-info h2 {
-        padding: 0 20px 0 20px;
+        padding: 0 5%;
+        /* 20px → 5% */
         text-align: center;
     }
 
     #profile .cont-info p {
-        padding: 0 20px 30px 20px;
+        padding: 0 5% 2rem 5%;
+        /* 20px → 5% */
     }
 
+    /* === HABILIDADES === */
     .habilidades-slider .habilidad .nivel {
-        right: 140px;
+        right: 35%;
+        /* 140px → relativo al contenedor */
     }
 
     .habilidades-slider .habilidad .nivel-aparte {
-        right: 128px;
+        right: 32%;
+        /* 128px → relativo */
     }
 
+    /* === PORTAFOLIO === */
     #portafolio {
-        padding: 100px;
+        padding: 2.5rem;
+        /* 40px → 2.5rem */
     }
 
+    /* === EDUCACIÓN === */
     #educacion {
-        padding: 100px;
+        padding: 2.5rem;
+        /* 40px → 2.5rem */
     }
 
     #educacion h2 {
-        margin-bottom: 70px;
+        margin-bottom: 4.5rem;
+        /* 70px → 4.5rem */
     }
 
+    #educacion .educacion h3 {
+        margin-top: 3.75rem;
+        /* 60px → 3.75rem */
+    }
+
+    /* === HOBBIES === */
     #hobbies {
-        padding: 100px;
+        padding: 1.25rem 0 0 0;
+        /* 20px → 1.25rem */
     }
 
-    #hobbies .parrafo {
-        text-align: center;
-    }
-
-    #hobbies .cont-personal h2 {
-        text-align: center;
-    }
-
-    .cont-personal .cont-info-personal .claves {
-        text-align: center;
-    }
-
+    #hobbies .parrafo,
+    #hobbies .cont-personal h2,
+    .cont-personal .cont-info-personal .claves,
     .cont-personal .cont-info-personal .valores {
         text-align: center;
     }
 
     #hobbies .cont-hobbies h2 {
         text-align: center;
+        margin-top: 6.25rem;
+        /* 100px → 6.25rem */
     }
 
     .cont-hobbies .cont-img span {
-        width: 80px;
-        height: 80px;
+        width: 20vw;
+        /* 80px → 20% del ancho de pantalla */
+        height: 20vw;
+        /* mantiene proporción cuadrada */
+        max-width: 80px;
+        /* 👈 Límite para pantallas muy grandes */
     }
 }

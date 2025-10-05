@@ -38,7 +38,7 @@ $('.habilidades-slider').slick({
 $('.slider-proyectos').slick({
   slidesToShow: 2,
   slidesToScroll: 1,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 1000,
   arrows: false,
    responsive: [
