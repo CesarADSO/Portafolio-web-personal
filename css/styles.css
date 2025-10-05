@@ -643,6 +643,12 @@ header .nav-edit img {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
+    html, body {
+        overflow-x: hidden;
+    }
+
+    
+
     /* === NAVBAR === */
     .navbar-toggler {
         background-color: #fff;
