@@ -650,7 +650,7 @@ header .nav-edit img {
 
     /* === SECCIÓN HERO === */
     #hero .cont-info {
-        padding: 8rem 0 0 5%;
+        padding: 8rem 5% 0 5%;
         /* 130px → 8rem (más escalable en móviles) */
     }
 
@@ -775,9 +775,9 @@ header .nav-edit img {
     }
 
     .cont-hobbies .cont-img span {
-        width: 20vw;
+        width: 15vw;
         /* 80px → 20% del ancho de pantalla */
-        height: 20vw;
+        height: 15vw;
         /* mantiene proporción cuadrada */
         max-width: 80px;
         /* 👈 Límite para pantallas muy grandes */
