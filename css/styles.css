@@ -671,20 +671,20 @@ header .nav-edit img {
     #hero .cont-info p {
         padding: 0 5%;
         /* 20px → 5% */
-        text-align: start;
+        text-align: center;
         margin-bottom: 2.5rem;
         /* 40px → 2.5rem */
     }
 
     #hero .cont-contact .contact {
         position: relative;
-        left: 35%;
+        left: 32%;
         /* 125px → relativo al ancho del contenedor */
         /* 👈 Esto centra mejor en pantallas pequeñas */
     }
 
     .cont-as ul {
-        padding-left: 18%;
+        padding-left: 14%;
         /* 70px → relativo */
         margin-top: 2.5rem;
         /* 40px → 2.5rem */
