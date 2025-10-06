@@ -726,6 +726,7 @@ header .nav-edit img {
     #profile .cont-info p {
         padding: 0 5% 2rem 5%;
         /* 20px → 5% */
+        text-align: center;
     }
 
     /* === HABILIDADES === */
@@ -763,7 +764,7 @@ header .nav-edit img {
 
     /* === HOBBIES === */
     #hobbies {
-        padding: 1.25rem 0 0 0;
+        padding: 1.25rem 0 3.125rem 0;
         /* 20px → 1.25rem */
     }
 
@@ -789,12 +790,12 @@ header .nav-edit img {
         /* 100px → 6.25rem */
     }
 
+    .cont-hobbies .cont-img {
+        justify-content: center;
+    }
+
     .cont-hobbies .cont-img span {
-        width: 15vw;
-        /* 80px → 20% del ancho de pantalla */
-        height: 15vw;
-        /* mantiene proporción cuadrada */
-        max-width: 80px;
-        /* 👈 Límite para pantallas muy grandes */
+        width: 32vw;
+        height: 20vw;
     }
 }
