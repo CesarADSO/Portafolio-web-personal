@@ -767,6 +767,15 @@ header .nav-edit img {
         /* 20px → 1.25rem */
     }
 
+    .cont-personal .cont-info-personal {
+        display: block !important;
+    }
+
+    .cont-personal .cont-info-personal .claves {
+        padding-bottom: 2.5rem;
+    }
+
+
     #hobbies .parrafo,
     #hobbies .cont-personal h2,
     .cont-personal .cont-info-personal .claves,

@@ -1,3 +1,10 @@
+
+  AOS.init();
+
+
+
+
+
 $('.habilidades-slider').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
@@ -41,7 +48,7 @@ $('.slider-proyectos').slick({
   autoplay: true,
   autoplaySpeed: 1000,
   arrows: false,
-   responsive: [
+  responsive: [
     {
       breakpoint: 1024,
       settings: {
