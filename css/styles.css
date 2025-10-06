@@ -518,6 +518,10 @@ header .nav-edit img {
     text-align: start;
 }
 
+.cont-personal .cont-info-personal-2 .claves {
+    display: none;
+}
+
 .cont-info-personal .claves h4 {
     font-size: 20px;
     color: var(--primary-color);
@@ -624,6 +628,10 @@ header .nav-edit img {
         text-align: center;
     }
 
+    .cont-personal .cont-info-personal-2 .claves {
+        display: none;
+    }
+
     .cont-personal .cont-info-personal .valores {
         text-align: center;
     }
@@ -643,11 +651,12 @@ header .nav-edit img {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
-    html, body {
+    html,
+    body {
         overflow-x: hidden;
     }
 
-    
+
 
     /* === NAVBAR === */
     .navbar-toggler {
@@ -768,8 +777,31 @@ header .nav-edit img {
         /* 20px → 1.25rem */
     }
 
+    .cont-personal .cont-info-personal {
+        display: none !important;
+    }
+
     .cont-personal .cont-info-personal .claves {
         padding-bottom: 2.5rem;
+    }
+
+    .cont-personal .cont-info-personal-2 {
+        justify-content: center !important;
+    }
+
+    .cont-personal .cont-info-personal-2 .claves {
+        display: block;
+    }
+
+    .cont-personal .cont-info-personal-2 .claves h4 {
+        font-size: 20px;
+        color: var(--primary-color);
+        margin-bottom: 20px;
+    }
+
+    .cont-personal .cont-info-personal-2 .claves p {
+        font-size: 20px;
+        color: var(--text-color);
     }
 
     #hobbies .parrafo,
