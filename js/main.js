@@ -18,7 +18,6 @@ $('.habilidades-slider').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
-        dots: true
       }
     },
     {
@@ -55,7 +54,6 @@ $('.slider-proyectos').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
-        dots: true
       }
     },
     {

@@ -565,6 +565,116 @@ header .nav-edit img {
 
 /* 6. ESTILOS RESPONSIVE TABLET */
 
+/* 📱 Tablets verticales (iPad Mini, Galaxy Tab en vertical) */
+@media screen and (min-width: 768px) and (max-width: 899px) {
+
+    .navbar-toggler {
+        background-color: #fff;
+    }
+
+    #hero {
+        padding-bottom: 5vh;
+        /* antes 70px */
+    }
+
+    #hero .cont-info h1,
+    #hero .cont-info h2 {
+        font-size: 1.875rem;
+        /* antes 30px */
+    }
+
+    #hero .cont-info p {
+        padding-right: 12vw;
+        /* antes 129px */
+        margin-bottom: 3vh;
+        /* antes 30px */
+    }
+
+    #hero .fila-botones {
+        display: block;
+    }
+
+    #hero .cont-as {
+        padding-top: 3vh;
+        /* antes 30px */
+    }
+
+    #hero .cont-img::before {
+        height: 20vh;
+        top: 15vh;
+        /* antes 184px */
+        width: 25vw;
+        /* antes 198px */
+    }
+
+    #hero .cont-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    #profile .cont-foto .foto-cesar {
+        width: 100%;
+        top: 12vh !important;
+        /* antes 123px */
+    }
+
+    #profile .cont-foto::before {
+        top: 21vh !important;
+        height: 19vh;
+        left: 24%;
+    }
+
+    #profile .cont-info h2 {
+        font-size: 1.875rem;
+        /* antes 30px */
+    }
+
+    .habilidades-slider .habilidad .nivel {
+        right: 12vh !important;
+    }
+
+    .habilidades-slider .habilidad .nivel-aparte {
+        right: 11vh !important;
+    }
+
+    .cont-hobbies .cont-img {
+        justify-content: center;
+    }
+
+    /*  Personal info alterna */
+    .cont-personal .cont-info-personal {
+        display: none !important;
+    }
+
+    .cont-personal .cont-info-personal-2 {
+        display: block !important;
+    }
+
+    .cont-personal .cont-info-personal-2 .claves {
+        display: block !important;
+    }
+
+    .cont-personal .cont-info-personal-2 .claves h4 {
+        font-size: 1.25rem;
+        /* antes 20px */
+        color: var(--primary-color);
+    }
+
+    .cont-personal .cont-info-personal-2 .claves p {
+        font-size: 1.25rem;
+        /* antes 20px */
+        color: var(--text-color);
+    }
+
+    .cont-hobbies .cont-img span {
+        width: 7vh !important;
+        height: 7vh !important;
+    }
+
+}
+
+
+
 @media screen and (min-width:768px) and (max-width:1080px) {
     #hero .cont-info {
         padding: 9vh 0 0 2vw;
@@ -577,7 +687,7 @@ header .nav-edit img {
 
     #profile .cont-foto::before {
         width: 25vw;
-        top: 15vh;
+        top: 9vh;
     }
 
     #profile .cont-info {
@@ -624,20 +734,37 @@ header .nav-edit img {
         text-align: center;
     }
 
-    .cont-personal .cont-info-personal .claves {
-        text-align: center;
+    /*  Personal info alterna */
+    .cont-personal .cont-info-personal {
+        display: none !important;
+    }
+
+    .cont-personal .cont-info-personal-2 {
+        display: block !important;
     }
 
     .cont-personal .cont-info-personal-2 .claves {
-        display: none;
+        display: block !important;
     }
 
-    .cont-personal .cont-info-personal .valores {
-        text-align: center;
+    .cont-personal .cont-info-personal-2 .claves h4 {
+        font-size: 1.25rem;
+        /* antes 20px */
+        color: var(--primary-color);
+    }
+
+    .cont-personal .cont-info-personal-2 .claves p {
+        font-size: 1.25rem;
+        /* antes 20px */
+        color: var(--text-color);
     }
 
     #hobbies .cont-hobbies h2 {
         text-align: center;
+    }
+
+    .cont-hobbies .cont-img {
+        justify-content: center;
     }
 
     .cont-hobbies .cont-img span {
