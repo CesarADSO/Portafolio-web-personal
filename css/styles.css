@@ -48,6 +48,9 @@ header {
 
 header .nav-edit {
     background: var(--tertiary-color) !important;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 header .nav-edit img {
@@ -72,6 +75,7 @@ header .nav-edit img {
 
 /* HERO */
 #hero {
+    padding-top: 7rem;
     width: 100%;
     background: var(--secundary-color);
 }
@@ -678,6 +682,10 @@ header .nav-edit img {
 @media screen and (min-width:768px) and (max-width:1080px) {
     #hero .cont-info {
         padding: 9vh 0 0 2vw;
+    }
+
+    #navbarNav a {
+        font-size: 12px;
     }
 
     #profile .cont-foto .foto-cesar {
