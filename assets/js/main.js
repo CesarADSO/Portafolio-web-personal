@@ -97,38 +97,81 @@ setTimeout(() => {
   });
 }, 200);
 
+function mostrarProyectos() {
+  proyectos.forEach((proyecto) => {
+    const contTarjeta = document.createElement('div');
+    contTarjeta.classList.add('card', 'tarjeta');
+    contTarjeta.style.width = '18rem';
 
-$('.slider-proyectos').slick({
-  slidesToShow: 2,
-  slidesToScroll: 1,
-  autoplay: false,
-  autoplaySpeed: 1000,
-  arrows: false,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        infinite: true,
+    const contFoto = document.createElement('div');
+    contFoto.classList.add('cont-foto');
+
+    const img = document.createElement('img');
+    img.src = proyecto.imagen;
+    img.setAttribute('alt', proyecto.titulo)
+
+    const cuerpoTarjeta = document.createElement('div');
+    cuerpoTarjeta.classList.add('card-body', 'cont-info');
+
+    const titulo = document.createElement('h5');
+    titulo.classList.add('card-title');
+    titulo.textContent = proyecto.titulo;
+
+    const tecnologias = document.createElement('p');
+    tecnologias.classList.add('card-text');
+    tecnologias.textContent = 'Tecnologías usadas: ' + proyecto.tecnologias;
+
+    const btnRedireccion = document.createElement('a');
+    btnRedireccion.setAttribute('href', proyecto.url);
+    btnRedireccion.setAttribute('target', '_blank');
+    btnRedireccion.classList.add('btn', 'button');
+    btnRedireccion.textContent = 'Visitar proyecto';
+
+    contProyectos.appendChild(contTarjeta);
+    contTarjeta.appendChild(contFoto);
+    contTarjeta.appendChild(cuerpoTarjeta);
+    contFoto.appendChild(img);
+    cuerpoTarjeta.appendChild(titulo);
+    cuerpoTarjeta.appendChild(tecnologias);
+    cuerpoTarjeta.appendChild(btnRedireccion);
+  })
+}
+
+// ESTO ES PARA ASEGURAR QUE CARGUEN LAS IMÁGENES PRIMERO ANTES QUE EL SLICK PARA QUE EL CARRUSEL FUNCIONE CORRECTAMENTE
+setTimeout(() => {
+  if ($('.slider-proyectos').hasClass('slick-initialized')) {
+    $('.slider-proyectos').slick('unslick');
+  }
+
+  $('.slider-proyectos').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
       }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
+    ]
+  });
+}, 200);
