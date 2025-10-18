@@ -1,0 +1,37 @@
+[
+  {
+    "habilidad": "HTML",
+    "nivel": "40%",
+    "imagen": "assets/img/html azul 1.png"
+  },
+  {
+    "habilidad": "CSS",
+    "nivel": "35%",
+    "imagen": "assets/img/CSS AZUL 1.png"
+  },
+  {
+    "habilidad": "JavaScript",
+    "nivel": "55%",
+    "imagen": "assets/img/js azul 1.png"
+  },
+  {
+    "habilidad": "MySQL",
+    "nivel": "60%",
+    "imagen": "assets/img/mysql azul 1.png"
+  },
+  {
+    "habilidad": "Figma",
+    "nivel": "40%",
+    "imagen": "assets/img/figma azul 1.png"
+  },
+  {
+    "habilidad": "PHP",
+    "nivel": "70%",
+    "imagen": "assets/img/php.png"
+  },
+  {
+    "habilidad": "Git",
+    "nivel": "50%",
+    "imagen": "assets/img/git.png"
+  }
+]
