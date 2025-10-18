@@ -1,56 +1,74 @@
 [
-  {
-    "titulo": "Website Driveways",
-    "tecnologias": "HTML 5 + CSS 3 + JavaScript",
-    "imagen": "assets/img/driveways.png",
-    "url": "https://cesaradso.github.io/website-responsive2/"
-  },
-  {
-    "titulo": "Website Algoritmos nivel medio - avanzado",
-    "tecnologias": "HTML 5 + CSS 3 + JavaScript",
-    "imagen": "assets/img/algoritmos medios avanzados.png",
-    "url": "https://cesaradso.github.io/website-algoritmos-nivel-medio-avanzado/"
-  },
-  {
-    "titulo": "Website Gym - Fitness",
-    "tecnologias": "HTML 5 + CSS 3 + Bootstrap",
-    "imagen": "assets/img/fitness.png",
-    "url": "https://cesaradso.github.io/website-gym/"
-  },
-  {
-    "titulo": "Website Rumbo",
-    "tecnologias": "HTML 5 + CSS 3",
-    "imagen": "assets/img/rumbo.png",
-    "url": "https://cesaradso.github.io/rumbo-practica-html-css/"
-  },
-  {
-    "titulo": "Aplicación To do List",
-    "tecnologias": "HTML 5 + CSS 3 + JavaScript",
-    "imagen": "assets/img/to do list.png",
-    "url": "https://cesaradso.github.io/To-Do-List-JS/"
-  },
-  {
-    "titulo": "Aplicación Gestión de cursos",
-    "tecnologias": "HTML 5 + CSS 3 + JavaScript: LocalStorage",
-    "imagen": "assets/img/gestión de cursos.png",
-    "url": "https://cesaradso.github.io/Cursos-localStorage/"
-  },
-  {
-    "titulo": "Website Melodia Express",
-    "tecnologias": "HTML 5 + CSS 3",
-    "imagen": "assets/img/melodia express.png",
-    "url": "https://cesaradso.github.io/taller-practico-html-css-tematicas/"
-  },
-  {
-    "titulo": "Aplicación manipulación del DOM",
-    "tecnologias": "HTML 5 + CSS 3 + JavaScript",
-    "imagen": "assets/img/manipulacion del DOM.png",
-    "url": "https://cesaradso.github.io/manipulacion_del_DOM_figuras/"
-  },
-  {
-    "titulo": "Aplicación algoritmos nivel básico",
-    "tecnologias": "HTML 5 + CSS 3 + JavaScript",
-    "imagen": "assets/img/algoritmos basicos.png",
-    "url": "https://cesaradso.github.io/algoritmos-JavaScrip-html-css/"
-  }
+    {
+        "titulo": "Website Driveways",
+        "tecnologias": "HTML 5 + CSS 3 + JavaScript",
+        "imagen": "assets/img/driveways.png",
+        "url": "https://cesaradso.github.io/website-responsive2/"
+    },
+    {
+        "titulo": "Website Algoritmos nivel medio - avanzado",
+        "tecnologias": "HTML 5 + CSS 3 + JavaScript",
+        "imagen": "assets/img/algoritmos medios avanzados.png",
+        "url": "https://cesaradso.github.io/website-algoritmos-nivel-medio-avanzado/"
+    },
+    {
+        "titulo": "Website Gym - Fitness",
+        "tecnologias": "HTML 5 + CSS 3 + Bootstrap",
+        "imagen": "assets/img/fitness.png",
+        "url": "https://cesaradso.github.io/website-gym/"
+    },
+    {
+        "titulo": "Website Rumbo",
+        "tecnologias": "HTML 5 + CSS 3",
+        "imagen": "assets/img/rumbo.png",
+        "url": "https://cesaradso.github.io/rumbo-practica-html-css/"
+    },
+    {
+        "titulo": "Aplicación To do List",
+        "tecnologias": "HTML 5 + CSS 3 + JavaScript",
+        "imagen": "assets/img/to do list.png",
+        "url": "https://cesaradso.github.io/To-Do-List-JS/"
+    },
+    {
+        "titulo": "Aplicación Gestión de cursos",
+        "tecnologias": "HTML 5 + CSS 3 + JavaScript: LocalStorage",
+        "imagen": "assets/img/gestión de cursos.png",
+        "url": "https://cesaradso.github.io/Cursos-localStorage/"
+    },
+    {
+        "titulo": "Website Melodia Express",
+        "tecnologias": "HTML 5 + CSS 3",
+        "imagen": "assets/img/melodia express.png",
+        "url": "https://cesaradso.github.io/taller-practico-html-css-tematicas/"
+    },
+    {
+        "titulo": "Aplicación manipulación del DOM",
+        "tecnologias": "HTML 5 + CSS 3 + JavaScript",
+        "imagen": "assets/img/manipulacion del DOM.png",
+        "url": "https://cesaradso.github.io/manipulacion_del_DOM_figuras/"
+    },
+    {
+        "titulo": "Aplicación algoritmos nivel básico",
+        "tecnologias": "HTML 5 + CSS 3 + JavaScript",
+        "imagen": "assets/img/algoritmos basicos.png",
+        "url": "https://cesaradso.github.io/algoritmos-JavaScrip-html-css/"
+    },
+    {
+        "titulo": "Reproductor de Música",
+        "tecnologias": "HTML 5 + CSS 3 + JavaScript + JSON",
+        "imagen": "assets/img/reproductor de musica.jpg",
+        "url": "https://cesaradso.github.io/Reproductor-de-m-sica/ingresar.html"
+    },
+    {
+        "titulo": "Galería de Personajes",
+        "tecnologias": "HTML 5 + CSS 3 + JavaScript + JSON",
+        "imagen": "assets/img/listado de personajes.png",
+        "url": "https://cesaradso.github.io/Personajes_json/"
+    },
+    {
+        "titulo": "Cinescape",
+        "tecnologias": "HTML 5 + CSS 3 + JavaScript + JSON",
+        "imagen": "assets/img/cinescape.jpg",
+        "url": "https://cesaradso.github.io/Consumo-de-JSON--peliculas/"
+    }
 ]
