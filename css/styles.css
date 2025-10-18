@@ -348,6 +348,20 @@ header .nav-edit img {
     margin: 0 12px;
 }
 
+.slider-proyectos .tarjeta .cont-foto {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.375rem;
+}
+
+.tarjeta .cont-foto img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0.375rem;
+}
+
 .slider-proyectos .tarjeta .cont-info {
     background: var(--constrast-color);
     text-align: start;
